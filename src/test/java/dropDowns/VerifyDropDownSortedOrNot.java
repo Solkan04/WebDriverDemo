@@ -22,10 +22,8 @@ public class VerifyDropDownSortedOrNot
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://testautomationpractice.blogspot.com/");
-		
-		
+				
 		WebElement selweb=driver.findElement(By.id("animals"));
-		
 		//scrolling to the element
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].scrollIntoView()", selweb);
@@ -55,7 +53,6 @@ public class VerifyDropDownSortedOrNot
 			System.out.println("DropDown is Sorted");
 		else
 			System.out.println("DropDown is not Sorted");
-		
 		driver.close();
 	}
 }
