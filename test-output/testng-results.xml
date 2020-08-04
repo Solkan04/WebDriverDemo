@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54834" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:09:34 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54834" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:09:34 IST">
+      <class name="PageObjectModelDemo.ParaBank_HomePage">
+        <test-method status="PASS" signature="demo()[pri:1, instance:PageObjectModelDemo.ParaBank_HomePage@3b084709]" name="demo" duration-ms="6571" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="findBys_And_findAll_Demo()[pri:2, instance:PageObjectModelDemo.ParaBank_HomePage@3b084709]" name="findBys_And_findAll_Demo" duration-ms="48195" started-at="2020-08-03T23:08:46 IST" finished-at="2020-08-03T23:09:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findBys_And_findAll_Demo -->
+      </class> <!-- PageObjectModelDemo.ParaBank_HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
