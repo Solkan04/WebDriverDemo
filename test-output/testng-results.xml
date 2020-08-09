@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54834" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:09:34 IST">
+  <suite name="Default suite" duration-ms="21515" started-at="2020-08-09T17:21:55 IST" finished-at="2020-08-09T17:22:17 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54834" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:09:34 IST">
-      <class name="PageObjectModelDemo.ParaBank_HomePage">
-        <test-method status="PASS" signature="demo()[pri:1, instance:PageObjectModelDemo.ParaBank_HomePage@3b084709]" name="demo" duration-ms="6571" started-at="2020-08-03T23:08:40 IST" finished-at="2020-08-03T23:08:46 IST">
+    <test name="Default test" duration-ms="21515" started-at="2020-08-09T17:21:55 IST" finished-at="2020-08-09T17:22:17 IST">
+      <class name="alerts.JavaScriptAlertsDemo">
+        <test-method status="PASS" signature="setUp()[pri:1, instance:alerts.JavaScriptAlertsDemo@3b084709]" name="setUp" duration-ms="8136" started-at="2020-08-09T17:21:56 IST" finished-at="2020-08-09T17:22:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-        <test-method status="PASS" signature="findBys_And_findAll_Demo()[pri:2, instance:PageObjectModelDemo.ParaBank_HomePage@3b084709]" name="findBys_And_findAll_Demo" duration-ms="48195" started-at="2020-08-03T23:08:46 IST" finished-at="2020-08-03T23:09:34 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="javaScript_AlertBox()[pri:2, instance:alerts.JavaScriptAlertsDemo@3b084709]" name="javaScript_AlertBox" duration-ms="3103" started-at="2020-08-09T17:22:04 IST" finished-at="2020-08-09T17:22:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findBys_And_findAll_Demo -->
-      </class> <!-- PageObjectModelDemo.ParaBank_HomePage -->
+        </test-method> <!-- javaScript_AlertBox -->
+        <test-method status="PASS" signature="javaScript_ConfirmBox()[pri:3, instance:alerts.JavaScriptAlertsDemo@3b084709]" name="javaScript_ConfirmBox" duration-ms="6241" started-at="2020-08-09T17:22:07 IST" finished-at="2020-08-09T17:22:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScript_ConfirmBox -->
+        <test-method status="PASS" signature="javaScript_PromptBox()[pri:4, instance:alerts.JavaScriptAlertsDemo@3b084709]" name="javaScript_PromptBox" duration-ms="3970" started-at="2020-08-09T17:22:13 IST" finished-at="2020-08-09T17:22:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScript_PromptBox -->
+      </class> <!-- alerts.JavaScriptAlertsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

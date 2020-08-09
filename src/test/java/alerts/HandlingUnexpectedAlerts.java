@@ -41,7 +41,8 @@ public class HandlingUnexpectedAlerts
 			driver.switchTo().alert().accept();
 		}catch(Exception e)
 		{
-			System.out.println("Unexpected Alert Handled");
+			//System.out.println("Unexpected Alert Handled");
+			System.out.println(e);
 		}
 		driver.findElement(By.xpath("//input[@name='fname']")).sendKeys("fname");
 		driver.findElement(By.xpath("//input[@name='lname']")).sendKeys("lname");
