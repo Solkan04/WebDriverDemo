@@ -28,9 +28,13 @@ public class JDBCExample1
 		//String s="INSERT INTO customers (NAME, AGE, SALARY, STATE) VALUES ('MAHESH','29','500000','KARNATAKA')";
 		//String s="SELECT * FROM customers";
 		//String s="SELECT NAME, AGE FROM customers";
-		//String s="DELETE FROM customers WHERE NAME='MAHESH'";
+		String s="DELETE FROM customers WHERE NAME='MAHESH'";
 		//String s="UPDATE customers SET NAME='Mahesh'";
-		String s="DELETE FROM CUSTOMERS";
+		//String s="DELETE FROM CUSTOMERS";
+		/*String s="INSERT ALL INTO CUSTOMERS (NAME, AGE, SALARY, STATE) VALUES ('RAMESH', '30', '300000', 'KARNATAKA')"
+				+"INTO CUSTOMERS (NAME, AGE, SALARY, STATE) VALUES ('SURESH', '34', '400000', 'TAMIL NADU')"
+				+ "SELECT * FROM DUAL";*/
+
 		stmt.execute(s);
 		
 		//Step-4:Close Connection
