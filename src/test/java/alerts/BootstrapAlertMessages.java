@@ -8,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.Color;
-import org.testng.Assert;
 
 public class BootstrapAlertMessages 
 {
@@ -31,9 +30,7 @@ public class BootstrapAlertMessages
 		String path = System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", path + "\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
-		// Maximize browser
 		driver.manage().window().maximize();
-		// Adding implicit wait
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.seleniumeasy.com/test/bootstrap-alert-messages-demo.html");
@@ -72,7 +69,6 @@ public class BootstrapAlertMessages
 				for(int k=j;k<=j;k++)
 				{
 					WebElement ele2=close.get(k);
-					Thread.sleep(3000);
 					ele2.click();
 				}
 			}
@@ -95,7 +91,6 @@ public class BootstrapAlertMessages
 				for(int k=0;k<close.size();k++)
 				{
 					WebElement ele2=close.get(k);
-					Thread.sleep(3000);
 					if(ele2.isDisplayed())
 						ele2.click();
 				}

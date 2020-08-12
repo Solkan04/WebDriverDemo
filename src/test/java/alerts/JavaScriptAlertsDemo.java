@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class JavaScriptAlertsDemo 
 {
 	public static WebDriver driver;
-	public static String promptxt="This Is Demo Text";
+	public static String promptxt="This Is Automated Text";
 	@Test(priority=1)
 	public static void setUp()
 	{
