@@ -15,13 +15,14 @@ public class BootstrapAlertMessages
 	public static void main(String[] args) throws InterruptedException 
 	{
 		setUp();
-		autoCloseAble();
-		System.out.println("_______________________________________________________________________");
-		normalCloseAble();
-		System.out.println("_______________________________________________________________________");
-		auto_Normal_CloseAble();
-		System.out.println("_______________________________________________________________________");
-		verify_Color();
+	//	autoCloseAble();
+	//	System.out.println("_______________________________________________________________________");
+	//	normalCloseAble();
+	//	System.out.println("_______________________________________________________________________");
+	//	auto_Normal_CloseAble();
+	//	System.out.println("_______________________________________________________________________");
+		//verify_Color();
+		//getColorNameFromRgb(int r, int g, int b);
 		driver.quit();
 	}
 
@@ -97,7 +98,7 @@ public class BootstrapAlertMessages
 			}
 		}
 	}
-	
+/*	
 	public static void verify_Color() throws InterruptedException
 	{
 		List<WebElement> list=driver.findElements(By.xpath("//div[@class='col-md-4']//button[contains(text(),'message')]"));
@@ -108,7 +109,7 @@ public class BootstrapAlertMessages
 			System.out.println(color);
 			String hex=Color.fromString(color).asHex();
 			System.out.println(hex);
-			/*String hexval[]=color.replace("rgba(", "").replace(")", "").split(",");
+			String hexval[]=color.replace("rgba(", "").replace(")", "").split(",");
 			System.out.println(hexval);
 			
 			hexval[0]=hexval[0].trim();
@@ -125,7 +126,30 @@ public class BootstrapAlertMessages
 			
 			System.out.println(actclr);
 			Assert.assertTrue(actclr.equals("#0045d0"), "Test Case Fail as the color is not same");
-*/
+
 		}
+		public String getColorNameFromHex(int hexColor) 
+		{
+		        int r = (hexColor & 0xFF0000) >> 16;
+		        int g = (hexColor & 0xFF00) >> 8;
+		        int b = (hexColor & 0xFF);
+		        return getColorNameFromRgb(r, g, b);
+		}
+		public int colorToHex(Color c) {
+	        return Integer.decode("0x"
+	                + Integer.toHexString(c.getRGB()).substring(2));
+	    }
+
+	    public String getColorNameFromColor(Color color) {
+	        return getColorNameFromRgb(color.getRed(), color.getGreen(),
+	                color.getBlue());
+	    }
 	}
-}
+
+	
+	public static Object getColorNameFromRgb(int r, int g, int b) 
+	{
+		// TODO Auto-generated method stub
+		
+	}
+*/}
