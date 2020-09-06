@@ -1,4 +1,4 @@
-package automation;
+package webTables;
 
 import java.text.NumberFormat;
 import java.text.ParseException;
